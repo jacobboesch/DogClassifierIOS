@@ -1,0 +1,1123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 243169D7A56C0468A9C10463619D018A /* Build configuration list for PBXAggregateTarget "TensorFlowLiteC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TensorFlowLiteC;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C8EE53D89B4C284BFEEC108FC9692F9 /* Pods-dogclassifierTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F32B489A4EB097168BCF1FC61CC11DE4 /* Pods-dogclassifierTests-dummy.m */; };
+		0E993296CF79F75FB6EA210A5AC531FD /* MetalDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA18C519BBA17643801F0059C8ABD2F /* MetalDelegate.swift */; };
+		30806718C80ACFD657320ADD85869F3A /* QuantizationParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E54EA83E3D741A1C97008B191DEDCB /* QuantizationParameters.swift */; };
+		3504644729034E13C576D5E601FC3063 /* Pods-dogclassifier-dogclassifierUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B470C3C0590AA25E7405B6B502B150 /* Pods-dogclassifier-dogclassifierUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		405DB926AB8462D8F5F96C5576BD24F1 /* TensorFlowLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5749A71B8B9BE3A1796E2F4C7F81F2B /* TensorFlowLite.swift */; };
+		6627043BEACF796929E7A7C65DCB775D /* Pods-dogclassifier-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 670A4302882661FB809068B642D87208 /* Pods-dogclassifier-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AA3C20F56E771C5934B2DCAA379CC4 /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F14F8FDFC382CFC76EF3DF9AE89174 /* Interpreter.swift */; };
+		8DA7D5FE089801A38D7226BB422A3AE9 /* TensorFlowLiteSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C4BC578385EDC42291BE039C542771 /* TensorFlowLiteSwift-dummy.m */; };
+		B30DFF9007000B08CA3613C616943724 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D196D2D02DB0243857616CFBC828D0 /* Delegate.swift */; };
+		B4CDABD81CAD2F2287406F58F12242B0 /* TensorFlowLiteSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD879A3B7FBF0BD96966E3C9AB12B97F /* TensorFlowLiteSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9BD81110588FF8EF267BD6647951BD4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DEEE5839289BAF4A77F053163A252B /* Model.swift */; };
+		BB252E9CA67FCAAD352F777576F14A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C25C93A446D8269CABADAAC3C505809C /* Pods-dogclassifier-dogclassifierUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B34F9969D7EC6D0F0ED381D218BA85 /* Pods-dogclassifier-dogclassifierUITests-dummy.m */; };
+		C3EAE257AE5859A6A5D125BD2C3D1A05 /* Pods-dogclassifier-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 088FAC56D5F4A05A33E92F6DFEF00B8C /* Pods-dogclassifier-dummy.m */; };
+		CCB7CE0562B8287AF0623C670A419EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E0ADB04CB79E33E01F295A170D57D0DD /* Pods-dogclassifierTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B05742328CE2C497D1EC7ABFD631E6 /* Pods-dogclassifierTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E425E5D90A7AA3F27E4E6B8B18497DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E677E11481A8D892C303DCE89B807BA6 /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B0658433A1DA500B01381C2A29CA55 /* Tensor.swift */; };
+		EE7899063120392B7E2BECDA0C8D3086 /* InterpreterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF18535EFDC612966854044FD570764 /* InterpreterError.swift */; };
+		F8ED8BBC164FDE874D7F83D42FC51633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		104AD4AD1212E22AB5B6BAEFB64C9C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10418167F619D6DA72BADAD10F9EC02B;
+			remoteInfo = TensorFlowLiteSwift;
+		};
+		19BC2EB54922FDDE263234038344415F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC559E53E13B6FBEF4F5CC310A73AFE6;
+			remoteInfo = TensorFlowLiteC;
+		};
+		226D3E17EB7D517C69BEE67E2438FBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC559E53E13B6FBEF4F5CC310A73AFE6;
+			remoteInfo = TensorFlowLiteC;
+		};
+		563893377EA4C6B0B75BAC5BC81F2DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10418167F619D6DA72BADAD10F9EC02B;
+			remoteInfo = TensorFlowLiteSwift;
+		};
+		9CD29C43799CE27402701E8FDBF5CACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC559E53E13B6FBEF4F5CC310A73AFE6;
+			remoteInfo = TensorFlowLiteC;
+		};
+		EBBB6AAE418CFD9FA5DB4F51EC7E37B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7768A10D4FBD8115162F81E4B67A2749;
+			remoteInfo = "Pods-dogclassifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002F3FFD79363EBD14A0AFC17E2F6039 /* Pods-dogclassifier-dogclassifierUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dogclassifier-dogclassifierUITests.release.xcconfig"; sourceTree = "<group>"; };
+		04FDCDE5E62A67507C39E4E18F937BC6 /* Pods-dogclassifierTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dogclassifierTests.release.xcconfig"; sourceTree = "<group>"; };
+		088FAC56D5F4A05A33E92F6DFEF00B8C /* Pods-dogclassifier-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dogclassifier-dummy.m"; sourceTree = "<group>"; };
+		16290027BA2AE8300BADAD5578C608EB /* Pods-dogclassifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dogclassifier.release.xcconfig"; sourceTree = "<group>"; };
+		17B470C3C0590AA25E7405B6B502B150 /* Pods-dogclassifier-dogclassifierUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dogclassifier-dogclassifierUITests-umbrella.h"; sourceTree = "<group>"; };
+		195023F1232F59DC7609EC8B27ABF4CC /* TensorFlowLiteC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.debug.xcconfig; sourceTree = "<group>"; };
+		1AA18C519BBA17643801F0059C8ABD2F /* MetalDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetalDelegate.swift; path = tensorflow/lite/experimental/swift/Sources/MetalDelegate.swift; sourceTree = "<group>"; };
+		1F0A9FE3C620ED52C52A3517AB9B95A2 /* Pods-dogclassifier-dogclassifierUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dogclassifier-dogclassifierUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		21C45643C4E125326EE5F2491B2DF0F0 /* Pods-dogclassifier-dogclassifierUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dogclassifier-dogclassifierUITests-Info.plist"; sourceTree = "<group>"; };
+		26C4BC578385EDC42291BE039C542771 /* TensorFlowLiteSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TensorFlowLiteSwift-dummy.m"; sourceTree = "<group>"; };
+		2EC17CDBBE2B39CE4972E06AADB2C78C /* Pods-dogclassifierTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dogclassifierTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EB44BF16D6996056CFE3435FF7FEC0C /* Pods-dogclassifier-dogclassifierUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dogclassifier-dogclassifierUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4471912CA7B8A9CA98E87318D11E5BAD /* Pods-dogclassifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dogclassifier.debug.xcconfig"; sourceTree = "<group>"; };
+		474BFE1AE563F2482DA28EFEFA8201A5 /* Pods-dogclassifier-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dogclassifier-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BE8BAB3451CF668E17B92084A6CFC16 /* Pods_dogclassifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dogclassifier.framework; path = "Pods-dogclassifier.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEF9604B3A10391246BB01C3B360192 /* TensorFlowLiteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteSwift.release.xcconfig; sourceTree = "<group>"; };
+		5AB6EC931B691AB202F03CFA8F38F68E /* Pods-dogclassifierTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dogclassifierTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BE78A3B905717744CFDE65923F96468 /* Pods-dogclassifier-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dogclassifier-Info.plist"; sourceTree = "<group>"; };
+		62B0658433A1DA500B01381C2A29CA55 /* Tensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tensor.swift; path = tensorflow/lite/experimental/swift/Sources/Tensor.swift; sourceTree = "<group>"; };
+		649E448017ED71B1729E0453DA16BE1D /* Pods-dogclassifierTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dogclassifierTests-Info.plist"; sourceTree = "<group>"; };
+		65985BC1A40330374FCD174BC520A83D /* Pods_dogclassifierTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dogclassifierTests.framework; path = "Pods-dogclassifierTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670A4302882661FB809068B642D87208 /* Pods-dogclassifier-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dogclassifier-umbrella.h"; sourceTree = "<group>"; };
+		68D196D2D02DB0243857616CFBC828D0 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = tensorflow/lite/experimental/swift/Sources/Delegate.swift; sourceTree = "<group>"; };
+		6AF18535EFDC612966854044FD570764 /* InterpreterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterpreterError.swift; path = tensorflow/lite/experimental/swift/Sources/InterpreterError.swift; sourceTree = "<group>"; };
+		7DC911E4735E7FF695F58024B3BA19FC /* TensorFlowLiteC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.release.xcconfig; sourceTree = "<group>"; };
+		8140971C85B098AB11B25B4BA186CF03 /* Pods-dogclassifier-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dogclassifier-acknowledgements.plist"; sourceTree = "<group>"; };
+		85E54EA83E3D741A1C97008B191DEDCB /* QuantizationParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuantizationParameters.swift; path = tensorflow/lite/experimental/swift/Sources/QuantizationParameters.swift; sourceTree = "<group>"; };
+		89DEEE5839289BAF4A77F053163A252B /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Model.swift; path = tensorflow/lite/experimental/swift/Sources/Model.swift; sourceTree = "<group>"; };
+		90B05742328CE2C497D1EC7ABFD631E6 /* Pods-dogclassifierTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dogclassifierTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5060FDF49BFDF183010E92441345498 /* TensorFlowLiteC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TensorFlowLiteC.framework; path = Frameworks/TensorFlowLiteC.framework; sourceTree = "<group>"; };
+		A5749A71B8B9BE3A1796E2F4C7F81F2B /* TensorFlowLite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorFlowLite.swift; path = tensorflow/lite/experimental/swift/Sources/TensorFlowLite.swift; sourceTree = "<group>"; };
+		A7EC975EB71E02B8614DB052B3AAD50D /* Pods_dogclassifier_dogclassifierUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dogclassifier_dogclassifierUITests.framework; path = "Pods-dogclassifier-dogclassifierUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B231F0E45C3D58A9E6EF7E9EC7A3B557 /* Pods-dogclassifierTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dogclassifierTests.modulemap"; sourceTree = "<group>"; };
+		B9F14F8FDFC382CFC76EF3DF9AE89174 /* Interpreter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interpreter.swift; path = tensorflow/lite/experimental/swift/Sources/Interpreter.swift; sourceTree = "<group>"; };
+		BE006A1273F8AB1A760841C70B8ECC17 /* TensorFlowLiteSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorFlowLiteSwift-prefix.pch"; sourceTree = "<group>"; };
+		C8B34F9969D7EC6D0F0ED381D218BA85 /* Pods-dogclassifier-dogclassifierUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dogclassifier-dogclassifierUITests-dummy.m"; sourceTree = "<group>"; };
+		CC33C871A1270E9B90B9F46D04461C78 /* Pods-dogclassifier-dogclassifierUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dogclassifier-dogclassifierUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF82B8C58A0FD821537E3660EAB99FAB /* TensorFlowLiteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteSwift.debug.xcconfig; sourceTree = "<group>"; };
+		DADD9C83FCF7E2F0C4969D06D0E88B94 /* TensorFlowLiteSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TensorFlowLiteSwift.modulemap; sourceTree = "<group>"; };
+		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TensorFlowLite.framework; path = TensorFlowLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EEE4038E7A669620B485A8C87E940B /* TensorFlowLiteSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TensorFlowLiteSwift-Info.plist"; sourceTree = "<group>"; };
+		ED8376D2D9B69C6BAF63ADE6AE4999B4 /* Pods-dogclassifier-dogclassifierUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dogclassifier-dogclassifierUITests.modulemap"; sourceTree = "<group>"; };
+		EF6589DBC14F363D68C85E8C1D7A2354 /* Pods-dogclassifier.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dogclassifier.modulemap"; sourceTree = "<group>"; };
+		F21050C44F8BF4A46459935CEFCC3EB6 /* Pods-dogclassifierTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dogclassifierTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F32B489A4EB097168BCF1FC61CC11DE4 /* Pods-dogclassifierTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dogclassifierTests-dummy.m"; sourceTree = "<group>"; };
+		FD879A3B7FBF0BD96966E3C9AB12B97F /* TensorFlowLiteSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorFlowLiteSwift-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CCAF243C71EE42F3A4E73AE17D1510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB7CE0562B8287AF0623C670A419EC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C6BF1534FE44D4764EE1849D0F8F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ED8BBC164FDE874D7F83D42FC51633 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9420A6BBBD3D9692A9DF97605E6647D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E425E5D90A7AA3F27E4E6B8B18497DAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CF52B5378499A6CEB8CFEB84955DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB252E9CA67FCAAD352F777576F14A23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC98BDB926D817E90534F1A39AA3CBA /* Pods-dogclassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				B231F0E45C3D58A9E6EF7E9EC7A3B557 /* Pods-dogclassifierTests.modulemap */,
+				5AB6EC931B691AB202F03CFA8F38F68E /* Pods-dogclassifierTests-acknowledgements.markdown */,
+				F21050C44F8BF4A46459935CEFCC3EB6 /* Pods-dogclassifierTests-acknowledgements.plist */,
+				F32B489A4EB097168BCF1FC61CC11DE4 /* Pods-dogclassifierTests-dummy.m */,
+				649E448017ED71B1729E0453DA16BE1D /* Pods-dogclassifierTests-Info.plist */,
+				90B05742328CE2C497D1EC7ABFD631E6 /* Pods-dogclassifierTests-umbrella.h */,
+				2EC17CDBBE2B39CE4972E06AADB2C78C /* Pods-dogclassifierTests.debug.xcconfig */,
+				04FDCDE5E62A67507C39E4E18F937BC6 /* Pods-dogclassifierTests.release.xcconfig */,
+			);
+			name = "Pods-dogclassifierTests";
+			path = "Target Support Files/Pods-dogclassifierTests";
+			sourceTree = "<group>";
+		};
+		1CAE4DFA30976CB39FF45A59917E2812 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6661CAE509B528212186DCE3A5F21F03 /* TensorFlowLiteC */,
+				A60D71B0C504F0801CA7AF415D647168 /* TensorFlowLiteSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		538C47B8EDD5872C004A1E1B923BD951 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				722B3313FA6ACD6FEC9A392B50829EA4 /* Pods-dogclassifier */,
+				5C78F67B51FB9069FFEADC4DEC99BBFD /* Pods-dogclassifier-dogclassifierUITests */,
+				0BC98BDB926D817E90534F1A39AA3CBA /* Pods-dogclassifierTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		56FDD2F0EC6001AEBBCE1A2B224A3117 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				195023F1232F59DC7609EC8B27ABF4CC /* TensorFlowLiteC.debug.xcconfig */,
+				7DC911E4735E7FF695F58024B3BA19FC /* TensorFlowLiteC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TensorFlowLiteC";
+			sourceTree = "<group>";
+		};
+		5C78F67B51FB9069FFEADC4DEC99BBFD /* Pods-dogclassifier-dogclassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8376D2D9B69C6BAF63ADE6AE4999B4 /* Pods-dogclassifier-dogclassifierUITests.modulemap */,
+				CC33C871A1270E9B90B9F46D04461C78 /* Pods-dogclassifier-dogclassifierUITests-acknowledgements.markdown */,
+				3EB44BF16D6996056CFE3435FF7FEC0C /* Pods-dogclassifier-dogclassifierUITests-acknowledgements.plist */,
+				C8B34F9969D7EC6D0F0ED381D218BA85 /* Pods-dogclassifier-dogclassifierUITests-dummy.m */,
+				21C45643C4E125326EE5F2491B2DF0F0 /* Pods-dogclassifier-dogclassifierUITests-Info.plist */,
+				17B470C3C0590AA25E7405B6B502B150 /* Pods-dogclassifier-dogclassifierUITests-umbrella.h */,
+				1F0A9FE3C620ED52C52A3517AB9B95A2 /* Pods-dogclassifier-dogclassifierUITests.debug.xcconfig */,
+				002F3FFD79363EBD14A0AFC17E2F6039 /* Pods-dogclassifier-dogclassifierUITests.release.xcconfig */,
+			);
+			name = "Pods-dogclassifier-dogclassifierUITests";
+			path = "Target Support Files/Pods-dogclassifier-dogclassifierUITests";
+			sourceTree = "<group>";
+		};
+		6661CAE509B528212186DCE3A5F21F03 /* TensorFlowLiteC */ = {
+			isa = PBXGroup;
+			children = (
+				FE52148DC6DE55C0D03EB75D362940B6 /* Frameworks */,
+				56FDD2F0EC6001AEBBCE1A2B224A3117 /* Support Files */,
+			);
+			name = TensorFlowLiteC;
+			path = TensorFlowLiteC;
+			sourceTree = "<group>";
+		};
+		722B3313FA6ACD6FEC9A392B50829EA4 /* Pods-dogclassifier */ = {
+			isa = PBXGroup;
+			children = (
+				EF6589DBC14F363D68C85E8C1D7A2354 /* Pods-dogclassifier.modulemap */,
+				474BFE1AE563F2482DA28EFEFA8201A5 /* Pods-dogclassifier-acknowledgements.markdown */,
+				8140971C85B098AB11B25B4BA186CF03 /* Pods-dogclassifier-acknowledgements.plist */,
+				088FAC56D5F4A05A33E92F6DFEF00B8C /* Pods-dogclassifier-dummy.m */,
+				5BE78A3B905717744CFDE65923F96468 /* Pods-dogclassifier-Info.plist */,
+				670A4302882661FB809068B642D87208 /* Pods-dogclassifier-umbrella.h */,
+				4471912CA7B8A9CA98E87318D11E5BAD /* Pods-dogclassifier.debug.xcconfig */,
+				16290027BA2AE8300BADAD5578C608EB /* Pods-dogclassifier.release.xcconfig */,
+			);
+			name = "Pods-dogclassifier";
+			path = "Target Support Files/Pods-dogclassifier";
+			sourceTree = "<group>";
+		};
+		835C3A7D2D91502CD84252CD1F59A968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BE8BAB3451CF668E17B92084A6CFC16 /* Pods_dogclassifier.framework */,
+				A7EC975EB71E02B8614DB052B3AAD50D /* Pods_dogclassifier_dogclassifierUITests.framework */,
+				65985BC1A40330374FCD174BC520A83D /* Pods_dogclassifierTests.framework */,
+				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D362ED26DBFCB0F7D03D165E0B9F45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADD9C83FCF7E2F0C4969D06D0E88B94 /* TensorFlowLiteSwift.modulemap */,
+				26C4BC578385EDC42291BE039C542771 /* TensorFlowLiteSwift-dummy.m */,
+				E4EEE4038E7A669620B485A8C87E940B /* TensorFlowLiteSwift-Info.plist */,
+				BE006A1273F8AB1A760841C70B8ECC17 /* TensorFlowLiteSwift-prefix.pch */,
+				FD879A3B7FBF0BD96966E3C9AB12B97F /* TensorFlowLiteSwift-umbrella.h */,
+				CF82B8C58A0FD821537E3660EAB99FAB /* TensorFlowLiteSwift.debug.xcconfig */,
+				4DEF9604B3A10391246BB01C3B360192 /* TensorFlowLiteSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TensorFlowLiteSwift";
+			sourceTree = "<group>";
+		};
+		A60D71B0C504F0801CA7AF415D647168 /* TensorFlowLiteSwift */ = {
+			isa = PBXGroup;
+			children = (
+				68D196D2D02DB0243857616CFBC828D0 /* Delegate.swift */,
+				B9F14F8FDFC382CFC76EF3DF9AE89174 /* Interpreter.swift */,
+				6AF18535EFDC612966854044FD570764 /* InterpreterError.swift */,
+				1AA18C519BBA17643801F0059C8ABD2F /* MetalDelegate.swift */,
+				89DEEE5839289BAF4A77F053163A252B /* Model.swift */,
+				85E54EA83E3D741A1C97008B191DEDCB /* QuantizationParameters.swift */,
+				62B0658433A1DA500B01381C2A29CA55 /* Tensor.swift */,
+				A5749A71B8B9BE3A1796E2F4C7F81F2B /* TensorFlowLite.swift */,
+				91D362ED26DBFCB0F7D03D165E0B9F45 /* Support Files */,
+			);
+			name = TensorFlowLiteSwift;
+			path = TensorFlowLiteSwift;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1CAE4DFA30976CB39FF45A59917E2812 /* Pods */,
+				835C3A7D2D91502CD84252CD1F59A968 /* Products */,
+				538C47B8EDD5872C004A1E1B923BD951 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE52148DC6DE55C0D03EB75D362940B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5060FDF49BFDF183010E92441345498 /* TensorFlowLiteC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CA735734216DCBB874C09DCE9701682 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ADB04CB79E33E01F295A170D57D0DD /* Pods-dogclassifierTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78208D4284DA5460EE036B234B831B9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CDABD81CAD2F2287406F58F12242B0 /* TensorFlowLiteSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969B3B8137471400A9D29BF3FD3E81D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3504644729034E13C576D5E601FC3063 /* Pods-dogclassifier-dogclassifierUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F6757B1DEE69DEC20EF263046A70B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6627043BEACF796929E7A7C65DCB775D /* Pods-dogclassifier-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEE4D4068BDD06E26CA520708ABB5DF /* Build configuration list for PBXNativeTarget "TensorFlowLiteSwift" */;
+			buildPhases = (
+				78208D4284DA5460EE036B234B831B9D /* Headers */,
+				B5E4027CF6A0738C877D048A2F15F3DC /* Sources */,
+				C6CF52B5378499A6CEB8CFEB84955DDE /* Frameworks */,
+				679E7170D73F96A9F6F4AF34B095DD4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C7C0C7FC1E8F36E403A9DA58D08A654 /* PBXTargetDependency */,
+			);
+			name = TensorFlowLiteSwift;
+			productName = TensorFlowLiteSwift;
+			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7768A10D4FBD8115162F81E4B67A2749 /* Pods-dogclassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA85B93BE54E7ED3E42D7153B62B1A36 /* Build configuration list for PBXNativeTarget "Pods-dogclassifier" */;
+			buildPhases = (
+				D2F6757B1DEE69DEC20EF263046A70B4 /* Headers */,
+				FB578E1B0B9DD42CA84B36CCEDA07851 /* Sources */,
+				259C6BF1534FE44D4764EE1849D0F8F8 /* Frameworks */,
+				1C86EB4053BED1B96B3E86F5EE2E3C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7543D0DEA0932E4B7C04B86A15BED88C /* PBXTargetDependency */,
+				90D171C66F1545BF07BBCA975075DFDF /* PBXTargetDependency */,
+			);
+			name = "Pods-dogclassifier";
+			productName = "Pods-dogclassifier";
+			productReference = 4BE8BAB3451CF668E17B92084A6CFC16 /* Pods_dogclassifier.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A97DCD7C5CADF380303DB276B85BF51 /* Pods-dogclassifier-dogclassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A8F0872EE838A54AC2E4A357B2A481 /* Build configuration list for PBXNativeTarget "Pods-dogclassifier-dogclassifierUITests" */;
+			buildPhases = (
+				969B3B8137471400A9D29BF3FD3E81D2 /* Headers */,
+				AE515F65A765C2046C01EA4787F66B11 /* Sources */,
+				15CCAF243C71EE42F3A4E73AE17D1510 /* Frameworks */,
+				4255679DCEC8113C94874FA2360F30A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3EB9B0B09BCA80035EE93D731F09BB8 /* PBXTargetDependency */,
+				DCCA74E82D70735A0FD153DB8132A8F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-dogclassifier-dogclassifierUITests";
+			productName = "Pods-dogclassifier-dogclassifierUITests";
+			productReference = A7EC975EB71E02B8614DB052B3AAD50D /* Pods_dogclassifier_dogclassifierUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C3921FC13205C982F48C0C0BD2CACFF /* Pods-dogclassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38C15C7DF2FFB369FF3A3C4A58AE662 /* Build configuration list for PBXNativeTarget "Pods-dogclassifierTests" */;
+			buildPhases = (
+				4CA735734216DCBB874C09DCE9701682 /* Headers */,
+				B4402B7291CB696E9F0F3174F31DD188 /* Sources */,
+				9420A6BBBD3D9692A9DF97605E6647D4 /* Frameworks */,
+				A972111D7B11F5721D6E08E7931E9830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FEDF783A8B583E7BDD03420CA8EBE53 /* PBXTargetDependency */,
+			);
+			name = "Pods-dogclassifierTests";
+			productName = "Pods-dogclassifierTests";
+			productReference = 65985BC1A40330374FCD174BC520A83D /* Pods_dogclassifierTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 835C3A7D2D91502CD84252CD1F59A968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7768A10D4FBD8115162F81E4B67A2749 /* Pods-dogclassifier */,
+				7A97DCD7C5CADF380303DB276B85BF51 /* Pods-dogclassifier-dogclassifierUITests */,
+				9C3921FC13205C982F48C0C0BD2CACFF /* Pods-dogclassifierTests */,
+				AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */,
+				10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C86EB4053BED1B96B3E86F5EE2E3C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4255679DCEC8113C94874FA2360F30A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679E7170D73F96A9F6F4AF34B095DD4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A972111D7B11F5721D6E08E7931E9830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE515F65A765C2046C01EA4787F66B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25C93A446D8269CABADAAC3C505809C /* Pods-dogclassifier-dogclassifierUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4402B7291CB696E9F0F3174F31DD188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8EE53D89B4C284BFEEC108FC9692F9 /* Pods-dogclassifierTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E4027CF6A0738C877D048A2F15F3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30DFF9007000B08CA3613C616943724 /* Delegate.swift in Sources */,
+				89AA3C20F56E771C5934B2DCAA379CC4 /* Interpreter.swift in Sources */,
+				EE7899063120392B7E2BECDA0C8D3086 /* InterpreterError.swift in Sources */,
+				0E993296CF79F75FB6EA210A5AC531FD /* MetalDelegate.swift in Sources */,
+				B9BD81110588FF8EF267BD6647951BD4 /* Model.swift in Sources */,
+				30806718C80ACFD657320ADD85869F3A /* QuantizationParameters.swift in Sources */,
+				E677E11481A8D892C303DCE89B807BA6 /* Tensor.swift in Sources */,
+				405DB926AB8462D8F5F96C5576BD24F1 /* TensorFlowLite.swift in Sources */,
+				8DA7D5FE089801A38D7226BB422A3AE9 /* TensorFlowLiteSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB578E1B0B9DD42CA84B36CCEDA07851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EAE257AE5859A6A5D125BD2C3D1A05 /* Pods-dogclassifier-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7543D0DEA0932E4B7C04B86A15BED88C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteC;
+			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
+			targetProxy = 19BC2EB54922FDDE263234038344415F /* PBXContainerItemProxy */;
+		};
+		8FEDF783A8B583E7BDD03420CA8EBE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-dogclassifier";
+			target = 7768A10D4FBD8115162F81E4B67A2749 /* Pods-dogclassifier */;
+			targetProxy = EBBB6AAE418CFD9FA5DB4F51EC7E37B5 /* PBXContainerItemProxy */;
+		};
+		90D171C66F1545BF07BBCA975075DFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteSwift;
+			target = 10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */;
+			targetProxy = 104AD4AD1212E22AB5B6BAEFB64C9C03 /* PBXContainerItemProxy */;
+		};
+		9C7C0C7FC1E8F36E403A9DA58D08A654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteC;
+			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
+			targetProxy = 9CD29C43799CE27402701E8FDBF5CACF /* PBXContainerItemProxy */;
+		};
+		DCCA74E82D70735A0FD153DB8132A8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteSwift;
+			target = 10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */;
+			targetProxy = 563893377EA4C6B0B75BAC5BC81F2DE4 /* PBXContainerItemProxy */;
+		};
+		F3EB9B0B09BCA80035EE93D731F09BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteC;
+			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
+			targetProxy = 226D3E17EB7D517C69BEE67E2438FBCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		025B8BDA71BF4A287EF237A8C2EB6606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEF9604B3A10391246BB01C3B360192 /* TensorFlowLiteSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift.modulemap";
+				PRODUCT_MODULE_NAME = TensorFlowLite;
+				PRODUCT_NAME = TensorFlowLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EF41B331DB67B468A3FE86D661E869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16290027BA2AE8300BADAD5578C608EB /* Pods-dogclassifier.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dogclassifier/Pods-dogclassifier-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dogclassifier/Pods-dogclassifier.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F4119F074ED7FCB1B2AA49EBBBA644E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4471912CA7B8A9CA98E87318D11E5BAD /* Pods-dogclassifier.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dogclassifier/Pods-dogclassifier-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dogclassifier/Pods-dogclassifier.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C4997AE81106EC6C2D8E284E07D3ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195023F1232F59DC7609EC8B27ABF4CC /* TensorFlowLiteC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65C37F704C5E47ED2EECBCC9D2AEB274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0A9FE3C620ED52C52A3517AB9B95A2 /* Pods-dogclassifier-dogclassifierUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dogclassifier-dogclassifierUITests/Pods-dogclassifier-dogclassifierUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dogclassifier-dogclassifierUITests/Pods-dogclassifier-dogclassifierUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AEE0C2EF410792F19C496372BC774C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FDCDE5E62A67507C39E4E18F937BC6 /* Pods-dogclassifierTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dogclassifierTests/Pods-dogclassifierTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dogclassifierTests/Pods-dogclassifierTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5054D9203F74D414013169CE2108677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC911E4735E7FF695F58024B3BA19FC /* TensorFlowLiteC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB6504F17DBCA07DA44BA4B2D0F587E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF82B8C58A0FD821537E3660EAB99FAB /* TensorFlowLiteSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift.modulemap";
+				PRODUCT_MODULE_NAME = TensorFlowLite;
+				PRODUCT_NAME = TensorFlowLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB0842F58D7C93AE0EBB4D10DE20CF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002F3FFD79363EBD14A0AFC17E2F6039 /* Pods-dogclassifier-dogclassifierUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dogclassifier-dogclassifierUITests/Pods-dogclassifier-dogclassifierUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dogclassifier-dogclassifierUITests/Pods-dogclassifier-dogclassifierUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4DCEE7DF45ADEE8C5FAD541CBC21E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC17CDBBE2B39CE4972E06AADB2C78C /* Pods-dogclassifierTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dogclassifierTests/Pods-dogclassifierTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dogclassifierTests/Pods-dogclassifierTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20A8F0872EE838A54AC2E4A357B2A481 /* Build configuration list for PBXNativeTarget "Pods-dogclassifier-dogclassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C37F704C5E47ED2EECBCC9D2AEB274 /* Debug */,
+				EB0842F58D7C93AE0EBB4D10DE20CF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243169D7A56C0468A9C10463619D018A /* Build configuration list for PBXAggregateTarget "TensorFlowLiteC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4997AE81106EC6C2D8E284E07D3ADA /* Debug */,
+				A5054D9203F74D414013169CE2108677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEE4D4068BDD06E26CA520708ABB5DF /* Build configuration list for PBXNativeTarget "TensorFlowLiteSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB6504F17DBCA07DA44BA4B2D0F587E /* Debug */,
+				025B8BDA71BF4A287EF237A8C2EB6606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38C15C7DF2FFB369FF3A3C4A58AE662 /* Build configuration list for PBXNativeTarget "Pods-dogclassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DCEE7DF45ADEE8C5FAD541CBC21E5D /* Debug */,
+				6AEE0C2EF410792F19C496372BC774C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA85B93BE54E7ED3E42D7153B62B1A36 /* Build configuration list for PBXNativeTarget "Pods-dogclassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4119F074ED7FCB1B2AA49EBBBA644E /* Debug */,
+				2EF41B331DB67B468A3FE86D661E869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

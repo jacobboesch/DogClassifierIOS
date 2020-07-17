@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF0486E08E91C823F5AE389 /* Pods_dogclassifier_dogclassifierUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E40F223E984739AEF98DB6 /* Pods_dogclassifier_dogclassifierUITests.framework */; };
+		8400421724C0DA3100850686 /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8400421624C0DA3100850686 /* labels.txt */; };
+		8400421824C0DA3100850686 /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8400421624C0DA3100850686 /* labels.txt */; };
+		8400421924C0DA3100850686 /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8400421624C0DA3100850686 /* labels.txt */; };
+		8400421C24C0DA7100850686 /* Classifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400421B24C0DA7100850686 /* Classifer.swift */; };
+		842DA8D624C1C7CA00ABE987 /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 8400421124C0D92D00850686 /* model.tflite */; };
+		84DF40D024C0A6D5007C02CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF40CF24C0A6D5007C02CC /* AppDelegate.swift */; };
+		84DF40D224C0A6D5007C02CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF40D124C0A6D5007C02CC /* SceneDelegate.swift */; };
+		84DF40D724C0A6D5007C02CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DF40D524C0A6D5007C02CC /* Main.storyboard */; };
+		84DF40DA24C0A6D5007C02CC /* dogclassifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DF40D824C0A6D5007C02CC /* dogclassifier.xcdatamodeld */; };
+		84DF40DC24C0A6D8007C02CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DF40DB24C0A6D8007C02CC /* Assets.xcassets */; };
+		84DF40DF24C0A6D8007C02CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DF40DD24C0A6D8007C02CC /* LaunchScreen.storyboard */; };
+		84DF40EA24C0A6D8007C02CC /* dogclassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF40E924C0A6D8007C02CC /* dogclassifierTests.swift */; };
+		84DF40F524C0A6D8007C02CC /* dogclassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF40F424C0A6D8007C02CC /* dogclassifierUITests.swift */; };
+		84DF410924C0A8EF007C02CC /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF410824C0A8EF007C02CC /* ImageViewCell.swift */; };
+		84DF410A24C0A8EF007C02CC /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF410824C0A8EF007C02CC /* ImageViewCell.swift */; };
+		84DF410B24C0A8EF007C02CC /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF410824C0A8EF007C02CC /* ImageViewCell.swift */; };
+		84DF410D24C0A926007C02CC /* ImageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF410C24C0A926007C02CC /* ImageListController.swift */; };
+		84DF410E24C0A926007C02CC /* ImageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF410C24C0A926007C02CC /* ImageListController.swift */; };
+		84DF410F24C0A926007C02CC /* ImageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF410C24C0A926007C02CC /* ImageListController.swift */; };
+		84DF411224C0B1F4007C02CC /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411124C0B1F4007C02CC /* ImageItem.swift */; };
+		84DF411324C0B1F4007C02CC /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411124C0B1F4007C02CC /* ImageItem.swift */; };
+		84DF411424C0B1F4007C02CC /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411124C0B1F4007C02CC /* ImageItem.swift */; };
+		84DF411824C0BBF5007C02CC /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411724C0BBF5007C02CC /* Classifier.swift */; };
+		84DF411924C0BBF5007C02CC /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411724C0BBF5007C02CC /* Classifier.swift */; };
+		84DF411A24C0BBF5007C02CC /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411724C0BBF5007C02CC /* Classifier.swift */; };
+		84DF411C24C0BC0D007C02CC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411B24C0BC0D007C02CC /* UIImageExtension.swift */; };
+		84DF411D24C0BC0D007C02CC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411B24C0BC0D007C02CC /* UIImageExtension.swift */; };
+		84DF411E24C0BC0D007C02CC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411B24C0BC0D007C02CC /* UIImageExtension.swift */; };
+		84DF412024C0BC1E007C02CC /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411F24C0BC1E007C02CC /* CVPixelBufferExtension.swift */; };
+		84DF412124C0BC1E007C02CC /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411F24C0BC1E007C02CC /* CVPixelBufferExtension.swift */; };
+		84DF412224C0BC1E007C02CC /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF411F24C0BC1E007C02CC /* CVPixelBufferExtension.swift */; };
+		9E2BC01EF1B9EBA8080DD434 /* Pods_dogclassifierTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C7C718325E55FDDF6DED97 /* Pods_dogclassifierTests.framework */; };
+		A4436825CE50E8BC8069BD65 /* Pods_dogclassifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774C081EB800F92E77259B19 /* Pods_dogclassifier.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DF40E624C0A6D8007C02CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DF40C424C0A6D5007C02CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DF40CB24C0A6D5007C02CC;
+			remoteInfo = dogclassifier;
+		};
+		84DF40F124C0A6D8007C02CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DF40C424C0A6D5007C02CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DF40CB24C0A6D5007C02CC;
+			remoteInfo = dogclassifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		271684E409A727E31E571748 /* Pods-dogclassifier-dogclassifierUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogclassifier-dogclassifierUITests.debug.xcconfig"; path = "Target Support Files/Pods-dogclassifier-dogclassifierUITests/Pods-dogclassifier-dogclassifierUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70894120FD9AB1D06337D232 /* Pods-dogclassifierTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogclassifierTests.release.xcconfig"; path = "Target Support Files/Pods-dogclassifierTests/Pods-dogclassifierTests.release.xcconfig"; sourceTree = "<group>"; };
+		774C081EB800F92E77259B19 /* Pods_dogclassifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogclassifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8400421124C0D92D00850686 /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
+		8400421624C0DA3100850686 /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
+		8400421B24C0DA7100850686 /* Classifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Classifer.swift; path = tflite/Classifer.swift; sourceTree = "<group>"; };
+		84DF40CC24C0A6D5007C02CC /* dogclassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogclassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DF40CF24C0A6D5007C02CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DF40D124C0A6D5007C02CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84DF40D624C0A6D5007C02CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DF40D924C0A6D5007C02CC /* dogclassifier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dogclassifier.xcdatamodel; sourceTree = "<group>"; };
+		84DF40DB24C0A6D8007C02CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DF40DE24C0A6D8007C02CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DF40E024C0A6D8007C02CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DF40E524C0A6D8007C02CC /* dogclassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dogclassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DF40E924C0A6D8007C02CC /* dogclassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogclassifierTests.swift; sourceTree = "<group>"; };
+		84DF40EB24C0A6D8007C02CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DF40F024C0A6D8007C02CC /* dogclassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dogclassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DF40F424C0A6D8007C02CC /* dogclassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogclassifierUITests.swift; sourceTree = "<group>"; };
+		84DF40F624C0A6D8007C02CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DF410824C0A8EF007C02CC /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		84DF410C24C0A926007C02CC /* ImageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListController.swift; sourceTree = "<group>"; };
+		84DF411124C0B1F4007C02CC /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		84DF411724C0BBF5007C02CC /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		84DF411B24C0BC0D007C02CC /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		84DF411F24C0BC1E007C02CC /* CVPixelBufferExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPixelBufferExtension.swift; sourceTree = "<group>"; };
+		89E40F223E984739AEF98DB6 /* Pods_dogclassifier_dogclassifierUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogclassifier_dogclassifierUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C7C718325E55FDDF6DED97 /* Pods_dogclassifierTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogclassifierTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F4D3F8AD57352240F9E00F /* Pods-dogclassifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogclassifier.debug.xcconfig"; path = "Target Support Files/Pods-dogclassifier/Pods-dogclassifier.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B50205B5315581082B8DC8 /* Pods-dogclassifierTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogclassifierTests.debug.xcconfig"; path = "Target Support Files/Pods-dogclassifierTests/Pods-dogclassifierTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A5EB507ADBF4F29125C766 /* Pods-dogclassifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogclassifier.release.xcconfig"; path = "Target Support Files/Pods-dogclassifier/Pods-dogclassifier.release.xcconfig"; sourceTree = "<group>"; };
+		D8F22C2136D6FB94A833F17C /* Pods-dogclassifier-dogclassifierUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogclassifier-dogclassifierUITests.release.xcconfig"; path = "Target Support Files/Pods-dogclassifier-dogclassifierUITests/Pods-dogclassifier-dogclassifierUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DF40C924C0A6D5007C02CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4436825CE50E8BC8069BD65 /* Pods_dogclassifier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF40E224C0A6D8007C02CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2BC01EF1B9EBA8080DD434 /* Pods_dogclassifierTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF40ED24C0A6D8007C02CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF0486E08E91C823F5AE389 /* Pods_dogclassifier_dogclassifierUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA5186EC9A520255D24AE0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				774C081EB800F92E77259B19 /* Pods_dogclassifier.framework */,
+				89E40F223E984739AEF98DB6 /* Pods_dogclassifier_dogclassifierUITests.framework */,
+				A3C7C718325E55FDDF6DED97 /* Pods_dogclassifierTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8400421A24C0DA4E00850686 /* tflite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tflite;
+			sourceTree = "<group>";
+		};
+		84DF40C324C0A6D5007C02CC = {
+			isa = PBXGroup;
+			children = (
+				84DF40CE24C0A6D5007C02CC /* dogclassifier */,
+				84DF40E824C0A6D8007C02CC /* dogclassifierTests */,
+				84DF40F324C0A6D8007C02CC /* dogclassifierUITests */,
+				84DF40CD24C0A6D5007C02CC /* Products */,
+				E5CFC4E9E6D06F2E61A79A81 /* Pods */,
+				4CA5186EC9A520255D24AE0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84DF40CD24C0A6D5007C02CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DF40CC24C0A6D5007C02CC /* dogclassifier.app */,
+				84DF40E524C0A6D8007C02CC /* dogclassifierTests.xctest */,
+				84DF40F024C0A6D8007C02CC /* dogclassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DF40CE24C0A6D5007C02CC /* dogclassifier */ = {
+			isa = PBXGroup;
+			children = (
+				84DF411624C0BBDF007C02CC /* tflite */,
+				84DF411524C0BB7C007C02CC /* extensions */,
+				84DF411024C0B196007C02CC /* model */,
+				84DF410324C0A891007C02CC /* views */,
+				84DF410224C0A729007C02CC /* controllers */,
+				84DF40CF24C0A6D5007C02CC /* AppDelegate.swift */,
+				84DF40D124C0A6D5007C02CC /* SceneDelegate.swift */,
+				84DF40D524C0A6D5007C02CC /* Main.storyboard */,
+				84DF40DB24C0A6D8007C02CC /* Assets.xcassets */,
+				84DF40DD24C0A6D8007C02CC /* LaunchScreen.storyboard */,
+				84DF40E024C0A6D8007C02CC /* Info.plist */,
+				84DF40D824C0A6D5007C02CC /* dogclassifier.xcdatamodeld */,
+			);
+			path = dogclassifier;
+			sourceTree = "<group>";
+		};
+		84DF40E824C0A6D8007C02CC /* dogclassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				8400421B24C0DA7100850686 /* Classifer.swift */,
+				8400421A24C0DA4E00850686 /* tflite */,
+				84DF40E924C0A6D8007C02CC /* dogclassifierTests.swift */,
+				84DF40EB24C0A6D8007C02CC /* Info.plist */,
+			);
+			path = dogclassifierTests;
+			sourceTree = "<group>";
+		};
+		84DF40F324C0A6D8007C02CC /* dogclassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DF40F424C0A6D8007C02CC /* dogclassifierUITests.swift */,
+				84DF40F624C0A6D8007C02CC /* Info.plist */,
+			);
+			path = dogclassifierUITests;
+			sourceTree = "<group>";
+		};
+		84DF410224C0A729007C02CC /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84DF410C24C0A926007C02CC /* ImageListController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		84DF410324C0A891007C02CC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				84DF410824C0A8EF007C02CC /* ImageViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		84DF411024C0B196007C02CC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				84DF411124C0B1F4007C02CC /* ImageItem.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		84DF411524C0BB7C007C02CC /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84DF411B24C0BC0D007C02CC /* UIImageExtension.swift */,
+				84DF411F24C0BC1E007C02CC /* CVPixelBufferExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		84DF411624C0BBDF007C02CC /* tflite */ = {
+			isa = PBXGroup;
+			children = (
+				8400421124C0D92D00850686 /* model.tflite */,
+				8400421624C0DA3100850686 /* labels.txt */,
+				84DF411724C0BBF5007C02CC /* Classifier.swift */,
+			);
+			path = tflite;
+			sourceTree = "<group>";
+		};
+		E5CFC4E9E6D06F2E61A79A81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4D3F8AD57352240F9E00F /* Pods-dogclassifier.debug.xcconfig */,
+				C7A5EB507ADBF4F29125C766 /* Pods-dogclassifier.release.xcconfig */,
+				271684E409A727E31E571748 /* Pods-dogclassifier-dogclassifierUITests.debug.xcconfig */,
+				D8F22C2136D6FB94A833F17C /* Pods-dogclassifier-dogclassifierUITests.release.xcconfig */,
+				C6B50205B5315581082B8DC8 /* Pods-dogclassifierTests.debug.xcconfig */,
+				70894120FD9AB1D06337D232 /* Pods-dogclassifierTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DF40CB24C0A6D5007C02CC /* dogclassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DF40F924C0A6D8007C02CC /* Build configuration list for PBXNativeTarget "dogclassifier" */;
+			buildPhases = (
+				32D70CB867DAE6AA91C004A8 /* [CP] Check Pods Manifest.lock */,
+				84DF40C824C0A6D5007C02CC /* Sources */,
+				84DF40C924C0A6D5007C02CC /* Frameworks */,
+				84DF40CA24C0A6D5007C02CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dogclassifier;
+			productName = dogclassifier;
+			productReference = 84DF40CC24C0A6D5007C02CC /* dogclassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DF40E424C0A6D8007C02CC /* dogclassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DF40FC24C0A6D8007C02CC /* Build configuration list for PBXNativeTarget "dogclassifierTests" */;
+			buildPhases = (
+				1AEC08CAD4AAB95588403F03 /* [CP] Check Pods Manifest.lock */,
+				84DF40E124C0A6D8007C02CC /* Sources */,
+				84DF40E224C0A6D8007C02CC /* Frameworks */,
+				84DF40E324C0A6D8007C02CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DF40E724C0A6D8007C02CC /* PBXTargetDependency */,
+			);
+			name = dogclassifierTests;
+			productName = dogclassifierTests;
+			productReference = 84DF40E524C0A6D8007C02CC /* dogclassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DF40EF24C0A6D8007C02CC /* dogclassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DF40FF24C0A6D8007C02CC /* Build configuration list for PBXNativeTarget "dogclassifierUITests" */;
+			buildPhases = (
+				7FE9D5D2F3F83C3EA43CD260 /* [CP] Check Pods Manifest.lock */,
+				84DF40EC24C0A6D8007C02CC /* Sources */,
+				84DF40ED24C0A6D8007C02CC /* Frameworks */,
+				84DF40EE24C0A6D8007C02CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DF40F224C0A6D8007C02CC /* PBXTargetDependency */,
+			);
+			name = dogclassifierUITests;
+			productName = dogclassifierUITests;
+			productReference = 84DF40F024C0A6D8007C02CC /* dogclassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DF40C424C0A6D5007C02CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = RIIS;
+				TargetAttributes = {
+					84DF40CB24C0A6D5007C02CC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					84DF40E424C0A6D8007C02CC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 84DF40CB24C0A6D5007C02CC;
+					};
+					84DF40EF24C0A6D8007C02CC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 84DF40CB24C0A6D5007C02CC;
+					};
+				};
+			};
+			buildConfigurationList = 84DF40C724C0A6D5007C02CC /* Build configuration list for PBXProject "dogclassifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DF40C324C0A6D5007C02CC;
+			productRefGroup = 84DF40CD24C0A6D5007C02CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DF40CB24C0A6D5007C02CC /* dogclassifier */,
+				84DF40E424C0A6D8007C02CC /* dogclassifierTests */,
+				84DF40EF24C0A6D8007C02CC /* dogclassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DF40CA24C0A6D5007C02CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DA8D624C1C7CA00ABE987 /* model.tflite in Resources */,
+				84DF40DF24C0A6D8007C02CC /* LaunchScreen.storyboard in Resources */,
+				84DF40DC24C0A6D8007C02CC /* Assets.xcassets in Resources */,
+				84DF40D724C0A6D5007C02CC /* Main.storyboard in Resources */,
+				8400421724C0DA3100850686 /* labels.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF40E324C0A6D8007C02CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400421824C0DA3100850686 /* labels.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF40EE24C0A6D8007C02CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400421924C0DA3100850686 /* labels.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AEC08CAD4AAB95588403F03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogclassifierTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32D70CB867DAE6AA91C004A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogclassifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE9D5D2F3F83C3EA43CD260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogclassifier-dogclassifierUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DF40C824C0A6D5007C02CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF411824C0BBF5007C02CC /* Classifier.swift in Sources */,
+				84DF40DA24C0A6D5007C02CC /* dogclassifier.xcdatamodeld in Sources */,
+				84DF40D024C0A6D5007C02CC /* AppDelegate.swift in Sources */,
+				84DF410D24C0A926007C02CC /* ImageListController.swift in Sources */,
+				84DF412024C0BC1E007C02CC /* CVPixelBufferExtension.swift in Sources */,
+				84DF411C24C0BC0D007C02CC /* UIImageExtension.swift in Sources */,
+				84DF410924C0A8EF007C02CC /* ImageViewCell.swift in Sources */,
+				84DF411224C0B1F4007C02CC /* ImageItem.swift in Sources */,
+				84DF40D224C0A6D5007C02CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF40E124C0A6D8007C02CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF411924C0BBF5007C02CC /* Classifier.swift in Sources */,
+				84DF412124C0BC1E007C02CC /* CVPixelBufferExtension.swift in Sources */,
+				84DF411324C0B1F4007C02CC /* ImageItem.swift in Sources */,
+				84DF410E24C0A926007C02CC /* ImageListController.swift in Sources */,
+				84DF410A24C0A8EF007C02CC /* ImageViewCell.swift in Sources */,
+				84DF40EA24C0A6D8007C02CC /* dogclassifierTests.swift in Sources */,
+				8400421C24C0DA7100850686 /* Classifer.swift in Sources */,
+				84DF411D24C0BC0D007C02CC /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF40EC24C0A6D8007C02CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF411A24C0BBF5007C02CC /* Classifier.swift in Sources */,
+				84DF412224C0BC1E007C02CC /* CVPixelBufferExtension.swift in Sources */,
+				84DF411424C0B1F4007C02CC /* ImageItem.swift in Sources */,
+				84DF410F24C0A926007C02CC /* ImageListController.swift in Sources */,
+				84DF410B24C0A8EF007C02CC /* ImageViewCell.swift in Sources */,
+				84DF40F524C0A6D8007C02CC /* dogclassifierUITests.swift in Sources */,
+				84DF411E24C0BC0D007C02CC /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DF40E724C0A6D8007C02CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DF40CB24C0A6D5007C02CC /* dogclassifier */;
+			targetProxy = 84DF40E624C0A6D8007C02CC /* PBXContainerItemProxy */;
+		};
+		84DF40F224C0A6D8007C02CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DF40CB24C0A6D5007C02CC /* dogclassifier */;
+			targetProxy = 84DF40F124C0A6D8007C02CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DF40D524C0A6D5007C02CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DF40D624C0A6D5007C02CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DF40DD24C0A6D8007C02CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DF40DE24C0A6D8007C02CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DF40F724C0A6D8007C02CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DF40F824C0A6D8007C02CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DF40FA24C0A6D8007C02CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F4D3F8AD57352240F9E00F /* Pods-dogclassifier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633T3CQ4AY;
+				INFOPLIST_FILE = dogclassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.dogclassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DF40FB24C0A6D8007C02CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A5EB507ADBF4F29125C766 /* Pods-dogclassifier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633T3CQ4AY;
+				INFOPLIST_FILE = dogclassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.dogclassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84DF40FD24C0A6D8007C02CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B50205B5315581082B8DC8 /* Pods-dogclassifierTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633T3CQ4AY;
+				INFOPLIST_FILE = dogclassifierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.dogclassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dogclassifier.app/dogclassifier";
+			};
+			name = Debug;
+		};
+		84DF40FE24C0A6D8007C02CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70894120FD9AB1D06337D232 /* Pods-dogclassifierTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633T3CQ4AY;
+				INFOPLIST_FILE = dogclassifierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.dogclassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dogclassifier.app/dogclassifier";
+			};
+			name = Release;
+		};
+		84DF410024C0A6D8007C02CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271684E409A727E31E571748 /* Pods-dogclassifier-dogclassifierUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633T3CQ4AY;
+				INFOPLIST_FILE = dogclassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.dogclassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dogclassifier;
+			};
+			name = Debug;
+		};
+		84DF410124C0A6D8007C02CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F22C2136D6FB94A833F17C /* Pods-dogclassifier-dogclassifierUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633T3CQ4AY;
+				INFOPLIST_FILE = dogclassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.dogclassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dogclassifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DF40C724C0A6D5007C02CC /* Build configuration list for PBXProject "dogclassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF40F724C0A6D8007C02CC /* Debug */,
+				84DF40F824C0A6D8007C02CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DF40F924C0A6D8007C02CC /* Build configuration list for PBXNativeTarget "dogclassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF40FA24C0A6D8007C02CC /* Debug */,
+				84DF40FB24C0A6D8007C02CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DF40FC24C0A6D8007C02CC /* Build configuration list for PBXNativeTarget "dogclassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF40FD24C0A6D8007C02CC /* Debug */,
+				84DF40FE24C0A6D8007C02CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DF40FF24C0A6D8007C02CC /* Build configuration list for PBXNativeTarget "dogclassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DF410024C0A6D8007C02CC /* Debug */,
+				84DF410124C0A6D8007C02CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84DF40D824C0A6D5007C02CC /* dogclassifier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84DF40D924C0A6D5007C02CC /* dogclassifier.xcdatamodel */,
+			);
+			currentVersion = 84DF40D924C0A6D5007C02CC /* dogclassifier.xcdatamodel */;
+			path = dogclassifier.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84DF40C424C0A6D5007C02CC /* Project object */;
+}
